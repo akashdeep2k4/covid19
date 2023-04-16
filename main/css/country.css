@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 10px 20px;
+  }
+  
+  #title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  #country {
+    padding: 5px;
+    font-size: 16px;
+    background-color: white;
+    border: black;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  #searchBtn {
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: grey;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }

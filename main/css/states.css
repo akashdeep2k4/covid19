@@ -1,0 +1,81 @@
+/* CSS for header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 10px 20px;
+  }
+  
+  #title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  #country {
+    padding: 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  #searchBtn {
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  #stateIND {
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: grey;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* CSS for stats */
+  .stats {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .cases, .deaths, .tests {
+    flex-basis: calc(33.33% - 20px);
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .cases p, .deaths p, .tests p {
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  .cases span, .deaths span, .tests span {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+/* news  */
+.news {
+    background-color: yellow;
+    border: 1px dotted black;
+    padding: 10px;
+    margin: 10px;
+}
+
+.news div {
+    margin-bottom: 10px;
+}

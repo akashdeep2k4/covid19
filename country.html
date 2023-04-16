@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid-19 Statistics</title>
+    <link rel="icon" type="image/png" href="image/logo.png">
+    <link rel="stylesheet" href="main/css/country.css">
+</head>
+
+<body>
+    <header class="header" id="header">
+        <a href="index.html">Covid-19 News</a>
+        <h2 id="title">Covid-19 Statistics</h2>
+        <a href="states.html">Stats by State in INDIA</a>
+    </header>
+
+    <input type="text" id="country" placeholder="Enter country name">
+    <button type="button" id="searchBtn">Search</button>
+
+    <!-- country -->
+
+    <div class="stats" id="stats">
+
+        <div class="cases" id="cases">
+            <p>New Cases: <span class="casesNew" id="casesNew"></span></p>
+            <p>Active Cases: <span class="casesactive" id="casesActive"></span></p>
+            <p>Critical Cases: <span class="casesCritical" id="casesCritical"></span></p>
+            <p>Recovered Cases: <span class="casesRecovered" id="casesRecovered"></span></p>
+            <!-- <p>1M_Pop Tests: <span class="casesPop" id="casesPop"></span></p> -->
+            <p>Total Cases: <span class="casesTotal" id="casesTotal"></span></p>
+        </div>
+
+        <div class="deaths" id="deaths">
+            <p>New Deaths: <span class="deathsNew" id="deathsNew"></span></p>
+            <!-- <p>1M_Pop Deaths: <span  class="deathsPop" id="deathsPop"></span></p> -->
+            <p>Total Deaths: <span class="deathsTotal" id="deathsTotal"></span></p>
+        </div>
+
+        <div class="tests" id="tests">
+            <!-- <p>1M_Pop Tests: <span class="testsPop" id="testsPop"></span></p> -->
+            <p>Total Tests: <span class="testsTotal" id="testsTotal"></span></p>
+        </div>
+
+    </div>
+
+    <script src="main/js/country.js"></script>
+</body>
+
+</html>
