@@ -14,12 +14,14 @@ fetch('https://covid-19-news.p.rapidapi.com/v1/covid?q=covid&lang=en&media=True'
 function show(response) {
 
     for (let i = 0; i < response.articles.length; i++) {
-        let div = document.createElement('div');
+        let div = document.createElement('p');
         div.classList.add("news")
 
         div.textContent = response.articles[i].summary;
 
-        document.body.append(div)
+        const divNews = document.getElementById("news")
+
+        divNews.append(div)
 
 
     }

@@ -30,6 +30,16 @@
     border-radius: 5px;
     cursor: pointer;
   }
+
+  #stateIND {
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: grey;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
   
   /* CSS for stats */
   .stats {
@@ -58,15 +68,7 @@
     font-weight: bold;
   }
   
-
-.news {
-	display: flex;
-	margin-bottom: 20px;
-	background-color: #f1f1f1;
-	padding: 10px;
-	border-radius: 5px;
-}
-
+/* news  */
 .news {
     background-color: yellow;
     border: 1px dotted black;
